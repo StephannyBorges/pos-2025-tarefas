@@ -1,16 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cardápio>
-    <prato id="L01">
-        <autor>
-            <nomedoprato>Filé de Salmão ao Molho de Maracujá</nomedoprato>
-            <descrição>Salmão grelhado servido com um molho agridoce de maracujá, acompanhado de arroz branco e legumes salteados.</descrição>
-        </autor>
-        <ingredientes>Salmão, maracujá, creme de leite, açúcar,arroz branco,cenoura,abobrinha, azeite.</ingredientes>
-        <preço>="55,00"</preço>
-    </prato>
-    <prato id="L02" calorias="520 kcal">
-        <autor>
-            <tempodepreparo>30 min</tempodepreparo>
-        </autor>
-    </prato>
-</cardápio>
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio>
+    <item id="2">
+        <nome>Pasta Alfredo</nome>
+        <descricao>Macarrão fettuccine servido com um delicioso molho cremoso de queijo.</descricao>
+        <ingredientes>Fettuccine, creme de leite, parmesão, manteiga, alho</ingredientes>
+        <preco>45.90</preco>
+        <calorias>800</calorias>
+        <tempo_preparo>20 minutos</tempo_preparo>
+    </item>
+    <item id="3">
+        <nome>Hambúrguer Gourmet</nome>
+        <descricao>Pão artesanal com hambúrguer suculento, queijo cheddar e molho especial.</descricao>
+        <ingredientes>Pão, carne bovina, cheddar, alface, tomate, molho especial</ingredientes>
+        <preco>32.50</preco>
+        <calorias>950</calorias>
+        <tempo_preparo>15 minutos</tempo_preparo>
+    </item>
+    <item id="4">
+        <nome>Pizza Marguerita</nome>
+        <descricao>Pizza tradicional italiana com molho de tomate, muçarela e manjericão fresco.</descricao>
+        <ingredientes>Massa de pizza, molho de tomate, muçarela, manjericão</ingredientes>
+        <preco>58.00</preco>
+        <calorias>1200</calorias>
+        <tempo_preparo>25 minutos</tempo_preparo>
+    </item>
+    <item id="5">
+        <nome>Salada Caesar</nome>
+        <descricao>Salada fresca com alface, croutons, queijo parmesão e molho Caesar.</descricao>
+        <ingredientes>Alface, croutons, parmesão, molho Caesar</ingredientes>
+        <preco>28.00</preco>
+        <calorias>350</calorias>
+        <tempo_preparo>10 minutos</tempo_preparo>
+    </item>
+</cardapio>
