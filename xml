@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardápio>
+    <prato id="L01">
+        <autor>
+            <nomedoprato>Filé de Salmão ao Molho de Maracujá</nomedoprato>
+            <descrição>Salmão grelhado servido com um molho agridoce de maracujá, acompanhado de arroz branco e legumes salteados.</descrição>
+        </autor>
+        <ingredientes>Salmão, maracujá, creme de leite, açúcar,arroz branco,cenoura,abobrinha, azeite.</ingredientes>
+        <preço>="55,00"</preço>
+    </prato>
+    <prato id="L02" calorias="520 kcal">
+        <autor>
+            <tempodepreparo>30 min</tempodepreparo>
+        </autor>
+    </prato>
+</cardápio>
