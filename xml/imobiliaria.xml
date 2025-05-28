@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ATTLIST imovel id ID #REQUIRED>
+<!ELEMENT descricao (#PCDATA)>
+
+<!ELEMENT proprietario (nome, (telefone|email)+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT endereco (rua, numero, bairro, cidade)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+
+<!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel id="I01">
+        <descricao>Apartamento de 3 quartos, 2 banheiro, sala e cozinha.</descricao>
+        <proprietario>
+            <nome>Sara de Oliveira</nome>
+            <telefone>84998675455</telefone>
+            <telefone>84999877890</telefone>
+            <email>sara.oliveira@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Rochas</rua>
+            <numero>98</numero>
+            <bairro>Centro</bairro>
+            <cidade>São José</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>87</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>450000.00</valor>
+    </imovel>
+
+    <imovel id="I02">
+        <descricao>Salão de beleza.</descricao>
+        <proprietario>
+            <nome>Kelly Medeiros</nome>
+            <telefone>11999995555</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Av. Nevaldo Rocha</rua>
+            <numero>839</numero>
+            <bairro>Quintas</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>40</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>320000.00</valor>
+    </imovel>
+
+    <imovel id="I03">
+        <descricao>Apartamento.</descricao>
+        <proprietario>
+            <nome>Maria Gorete</nome>
+            <telefone>11988882222</telefone>
+            <email>gorete.m@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua Presidente Mascarenhas</rua>
+            <numero>900</numero>
+            <bairro>Alecrim</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>680000.00</valor>
+    </imovel>
+
+    <imovel id="I04">
+        <descricao>Terreno em Natal.</descricao>
+        <proprietario>
+            <nome>Douglas santos</nome>
+            <telefone>19927456421</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Baraúna</rua>
+            <numero>100</numero>
+            <bairro>Cidade alta</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>420</tamanho>
+            <numQuartos>0</numQuartos>
+            <numBanheiros>0</numBanheiros>
+        </caracteristicas>
+        <valor>350000.00</valor>
+    </imovel>
+
+    <imovel id="I05">
+        <descricao>Condominio de luxo.</descricao>
+        <proprietario>
+            <nome>João Pedro Torres</nome>
+            <telefone>11911117777</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Av. Mario Negócio</rua>
+            <numero>1502</numero>
+            <bairro>Ponta Negra</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>800</tamanho>
+            <numQuartos>60</numQuartos>
+            <numBanheiros>120</numBanheiros>
+        </caracteristicas>
+        <valor>2350000.00</valor>
+    </imovel>
+</imobiliaria>
