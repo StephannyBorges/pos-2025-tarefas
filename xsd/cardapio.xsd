@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cardapio.xsd"?>
+<schema xmlns="http://www.w3.org/2001/XSDSchema"
+        xmlns:c="http://cardapio.org"
+        targetNamespace="http://cardapio.org"
+        elementFormDefault="qualified">
+        <element name="nome" type="c:cardapio_type">
+        <element name="descricao" type="string">
+        <element name="ingredientes" type="string">
+        <element name="preco" type="string">
+        <element name="calorias" type="string">
+        <element name="tempodepreparo" type="string">
+      
+
+                    <simpleType>
+                        <restriction base="string">
+                            <enumeration value="café"/>
+                            <enumeration value="almoço"/>
+                            <enumeration value="janta"/>
+                        </restriction>
+                    </simpleType>
+                
+                <element name="ingredientes">
+                    <complexType>
+                        <sequence>
+                            <element name="ingrediente" type="string" maxOccurs="unbounded"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="35.90">
+                    <simpleType>
+                        <restriction base="decimal">
+                            <fractionDigits value="2"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+                <element name="25/05/2025" type="date"/>
+            
+        
+    
+</schema>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XSDSchema"
+        xmlns:c="http://quiz.org"
+        targetNamespace="http://quiz.org"
+        elementFormDefault="qualified">
+<quiz versao="1.0">
+    <disciplina>Design Web</disciplina>
+    <professor>
+        <nome>Profa. Pedrina Brasil</nome>
+        <matrícula>765489</matrícula>
+    </professor>
+    <turma>POS2025-S5</turma>
+    <data>2025-05-24</data>
+    <questões>
+        <questão>
+            <enunciado>Qual das opções abaixo representa um princípio fundamental do Design Web responsivo?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao"> Utilizar exclusivamente imagens em alta resolução para garantir qualidade visual.</alternativa>
+                <alternativa correta="nao">Priorizar o uso de tabelas para organizar todo o layout da página.</alternativa>
+                <alternativa correta="sim">Desenvolver layouts que se ajustem automaticamente a diferentes tamanhos de tela.</alternativa>
+                <alternativa correta="nao"> Usar o máximo possível de animações e efeitos visuais em todas as páginas.</alternativa>
+                <alternativa correta="nao">Evitar o uso de CSS para garantir compatibilidade entre navegadores antigos.</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
+</schema>
