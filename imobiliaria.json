@@ -1,0 +1,40 @@
+[
+    {
+        "id":"1",
+        "tipo":"Apartamento",
+        "endereço":"Rua das Rochas",
+        "cidade":"São José",
+        "preco":"50000",
+        "descrição":"Apartamento de 3 quartos, 2 banheiro, sala e cozinha."
+    },
+    {
+        "id":"2",
+        "tipo":"Salão de beleza",
+        "endereço":"Av. Nevaldo Rocha",
+        "cidade":"Natal",
+        "preco":"30000",
+        "descrição":"Salão de Beleza com 2 banheiro, uma copa e uma sala."
+    },
+    {   "id":"3",
+        "tipo":"Casa de Luxo",
+        "endereço":"Av. Nilton Bezerra",
+        "cidade":"Natal",
+        "preco":"100000",
+        "descrição":"Casa de Luxo com 8 banheiros, 2 salas de jantar, 2 cozinhas, 10 quartos, uma aréa de lazer com piscina."
+
+    },
+    {
+        "id":"4",
+        "tipo":"Terreno vazio",
+        "endereço":"Av.Rocha",
+        "cidade":"Natal",
+        "preco":"210000",
+        "descrição":"Terreno vázio descampado."
+    }
+]
+
+
+
+
+            
+            

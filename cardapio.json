@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "Prato Principal",
+        "pratos":[
+            "id": "1",
+            "nome":"Arroz com Frango",
+            "descrição": "Arroz branco com frango grelhado",
+            "preco":"15,00",
+            "ingredientes": [
+                "Arroz",
+                "Frango",
+                "/u00d3leo"
+            ]
+        },

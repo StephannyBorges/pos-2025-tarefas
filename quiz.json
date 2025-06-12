@@ -1,0 +1,13 @@
+[
+    {
+        "id": "1",
+        "texto": "Qual das opções abaixo representa um princípio fundamental do Design Web responsivo?",
+        "opcoes": [
+            "A) Utilizar exclusivamente imagens em alta resolução para garantir qualidade visual",
+            "B) Priorizar o uso de tabelas para organizar todo o layout da página",
+            "C) Desenvolver layouts que se ajustem automaticamente a diferentes tamanhos de tela"
+        ],
+        "resposta": "C)Desenvolver layouts que se ajustem automaticamente a diferentes tamanhos de tela"
+    }
+
+]
