@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>Add commentMore actions
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+<cardapio>
+    <prato>
+        <nome>Pasta Alfredo</nome>
+        <descricao>Macarrão fettuccine servido com um delicioso molho cremoso de queijo</descricao>
+        <ingredientes>
+            <ingrediente numero="01">Fettuccine</ingrediente>
+            <ingrediente numero="02">creme de leite</ingrediente>
+            <ingrediente numero="03">parmesão</ingrediente>
+            <ingrediente numero="04">manteiga</ingrediente>
+        </ingredientes>   
+        <preco>R$ 45,90</preco>
+        <tempo>20min</tempo>
+        <calorias>800 calorias</calorias>
+    </prato>
+
+    <prato>
+        <nome>Hambúrguer Gourmet</nome>
+        <descricao>Pão artesanal com hambúrguer suculento, queijo cheddar e molho especial.</descricao>
+        <ingredientes>
+            <ingrediente numero="01">Pão</ingrediente>
+            <ingrediente numero="02">Carne bovina</ingrediente>
+            <ingrediente numero="03">cheddar</ingrediente>
+            <ingrediente numero="04">Alface</ingrediente>
+            <ingrediente numero="05">tomate</ingrediente>
+            <ingrediente numero="06">molho especial</ingrediente>
+        </ingredientes>
+        <preco>R$ 32,50</preco>
+        <tempo>20min</tempo>
+        <calorias>950 calorias</calorias>
+    </prato>
+
+    <prato>
+        <nome>Pizza Marguerita</nome>
+        <descricao>Pizza tradicional italiana com molho de tomate, muçarela e manjericão fresco.</descricao>
+        <ingredientes>
+            <ingrediente numero="01">Massa</ingrediente>
+            <ingrediente numero="02">molho de tomate</ingrediente>
+            <ingrediente numero="03">muçarela</ingrediente>
+            <ingrediente numero="04">manjericão fresco</ingrediente>
+        </ingredientes>
+        <preco>R$ 58,00</preco>
+        <tempo>10min</tempo>
+        <calorias>1200 calorias</calorias>
+    </prato>
+
+    <prato>
+        <nome>Salada Caesar</nome>
+        <descricao>Salada fresca com alface, croutons, queijo parmesão e molho Caesar</descricao>
+        <ingredientes>
+            <ingrediente numero="01">alface</ingrediente>
+            <ingrediente numero="02">croutons</ingrediente>
+            <ingrediente numero="03">queijo</ingrediente>
+            <ingrediente numero="04">Abobrinha</ingrediente>
+            <ingrediente numero="05">molho Caesar</ingrediente>
+        </ingredientes>
+        <preco>R$ 28,00</preco>
+        <tempo>10min</tempo>
+        <calorias>350 calorias</calorias>
+    </prato>
+
+    <prato>
+        <nome>purê de batata </nome>
+        <descricao>purê de batata simples recheada com queijo</descricao>
+        <ingredientes>
+            <ingrediente numero="01">batata</ingrediente>
+            <ingrediente numero="02">Queijo</ingrediente>
+            <ingrediente numero="03">Sal</ingrediente>
+            <ingrediente numero="04">Pimenta</ingrediente>
+        </ingredientes>
+        <preco>R$ 15,00</preco>
+        <tempo>8min</tempo>
+        <calorias>90 calorias</calorias>
+    </prato>
+</cardapio>
