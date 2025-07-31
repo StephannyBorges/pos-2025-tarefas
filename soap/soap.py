@@ -1,4 +1,4 @@
-import requests
+import requests # type: ignore
 from xml.dom.minidom import parseString
 
 url = "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"
