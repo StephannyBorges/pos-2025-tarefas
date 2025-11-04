@@ -5,7 +5,7 @@ const pokemonListContainer = document.getElementById('pokemon-list');
 const pokemonDetailsContainer = document.getElementById('pokemon-details');
 
 /**
- * Renderiza a lista de Pokémon na sidebar.
+ * Renderiza a lista de Pokémon na sidebar...
  * @param {Array} pokemons - A lista de pokémons (com name e url)
  * @param {Function} onPokemonClick - Função a ser chamada quando um Pokémon é clicado.
  */
